@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Big Box with Buttons</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      margin: 0;
+    }
+    .card {
+      height: 100px;
+      display: flex;
+      padding: 100px;
+      flex-direction: row;
+      width: 80%;
+      background-color: black;
+      color: white;
+      border-radius: 25px;
+      position: absolute;
+      top: 120px;
+    }
+    .header {
+      background-color: red;
+      padding: 50px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .footer {
+      background-color: red;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+    }
+    .logo {
+      float: left;
+      margin-right: 10px;
+    }
+    .logo img {
+      height: 30px;
+      width: auto;
+    }
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px; /* Adjust the margin-top value to move the box down */
+      width: 80%;
+      height: 80%;
+      max-width: 600px;
+      max-height: 300px;
+      background-color: black;
+      border-radius: 10px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 20px;
+    }
+    .button {
+      display: inline-block;
+      width: 200px;
+      height: 60px;
+      background-color: red;
+      color: #fff;
+      text-align: center;
+      line-height: 60px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; /* Added transition effect */
+    }
+    .button:hover {
+      background-color: #ff5555; /* Added hover background color */
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="u.png" alt="logo">
+    </div>
+  </div>
+  <div class="card">
+    "Welcome to Universe, your all-in-one communication hub for students, faculty, and wardens. Our platform is designed to make it easy for you to connect with each other, share information, and stay up-to-date on the latest news and events. Whether you're a student looking to connect with classmates, a faculty member seeking to collaborate with colleagues, or a warden looking to stay informed on campus happenings, Universe has everything you need to stay connected."
+  </div> <!-- Moved the card element here -->
+  <div class="box">
+    <div class="button-container">
+      <a href="C:\Users\CHARUTHA MURARI S\Desktop\HTML CODES\studentintegration.html" class="button">Student</a> Student</a>
+      <a href="C:\Users\CHARUTHA MURARI S\Desktop\HTML CODES\facultyintegration.html" class="button">Faculty</a>
+      <a href="C:\Users\CHARUTHA MURARI S\Desktop\HTML CODES\wardenintegration.html" class="button">Warden</a>
+    </div>
+  </div>
+  <div class="footer">
+    copyrights@team_maverick
+  </div>
+</body>
+</html>
